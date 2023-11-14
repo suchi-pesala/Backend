@@ -1,13 +1,13 @@
-const mongoose=require('mongoose');
+// const mongoose=require('mongoose');
 
-const SampleSchema=new mongoose.Schema({
-    name:{
-        type:String,
-        required:true
-    },
-    description:{
-        type:String
-    }
-});
+// const SampleSchema=new mongoose.Schema({
+//     name:{
+//         type:String,
+//         required:true
+//     },
+//     description:{
+//         type:String
+//     }
+// });
 
-module.exports=mongoose.model('Sample',SampleSchema);
+// module.exports=mongoose.model('Sample',SampleSchema);
